@@ -10,11 +10,6 @@
       "src": "/(.*)",
       "dest": "api/index.js"
     }
-  ],
-  "build": {
-    "env": {
-      "MY_ENV_VARIABLE": "value"  // Optional: define any environment variables
-    }
-  }
+  ]
 }
 
