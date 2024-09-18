@@ -1,13 +1,11 @@
 {
-  "name": "tmp_express",
+  "name": "my-express-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/index.js",
+    "vercel-build": "echo 'No build step required'",
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.21.0"
   }
